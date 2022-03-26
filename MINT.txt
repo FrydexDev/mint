@@ -1,0 +1,506 @@
+local MINT1 = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local _1 = Instance.new("Frame")
+local Borders = Instance.new("Frame")
+local Background = Instance.new("Frame")
+local background1 = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local RemoteSpy = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local DarkDex = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local InfiniteYield = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Bypasser = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local r6animations = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Aimbot = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local WallWalk = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local ChatSUDO = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local VGhub = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local MM2 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local PrisonLife = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local PhantomForces = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local HamsterBall = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Update = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local ExpName = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local Credit = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+ 
+--Properties:
+ 
+MINT1.Name = "MINT1"
+MINT1.Parent = game.CoreGui
+MINT1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ 
+Frame.Parent = MINT1
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.194338173, 0, 0.324195474, 0)
+Frame.Size = UDim2.new(0, 724, 0, 339)
+ 
+ 
+_1.Name = "#1"
+_1.Parent = Frame
+_1.Active = true
+_1.BackgroundColor3 = Color3.fromRGB(255, 255, 235)
+_1.BackgroundTransparency = 1.000
+_1.BorderSizePixel = 0
+_1.Position = UDim2.new(0.5, -275, 0.5, -150)
+_1.Size = UDim2.new(0, 550, 0, 300)
+_1.ZIndex = 2
+ 
+Borders.Name = "Borders"
+Borders.Parent = _1
+Borders.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Borders.BackgroundTransparency = 1.000
+Borders.BorderSizePixel = 0
+Borders.Position = UDim2.new(0, 12, 0, 12)
+Borders.Size = UDim2.new(1, -24, 1, -24)
+ 
+Background.Name = "Background"
+Background.Parent = Borders
+Background.Active = true
+Background.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+Background.BorderSizePixel = 0
+Background.Position = UDim2.new(0.00570342503, 0, 0.00362318475, 0)
+Background.Size = UDim2.new(1, 0, 1, 0)
+ 
+background1.Name = "background1"
+background1.Parent = Background
+background1.Active = true
+background1.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+background1.BackgroundTransparency = 1.000
+background1.BorderSizePixel = 0
+background1.Position = UDim2.new(0.00570342503, 0, 0.00362318475, 0)
+background1.Size = UDim2.new(1, 0, 1, 0)
+ 
+ImageLabel.Parent = background1
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Size = UDim2.new(0, 526, 0, 272)
+ImageLabel.Image = "rbxassetid://9195766300"
+ImageLabel.ImageTransparency = 0.500
+ 
+ScrollingFrame.Parent = Borders
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.366197705, 0, 0.0644927099, 0)
+ScrollingFrame.Size = UDim2.new(0, 336, 0, 259)
+ScrollingFrame.ScrollBarThickness = 6
+ 
+RemoteSpy.Name = "RemoteSpy"
+RemoteSpy.Parent = ScrollingFrame
+RemoteSpy.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+RemoteSpy.BackgroundTransparency = 0.100
+RemoteSpy.BorderSizePixel = 0
+RemoteSpy.Position = UDim2.new(1.13350415, -350, 0.0687745661, 150)
+RemoteSpy.Size = UDim2.new(0, 289, 0, 28)
+RemoteSpy.ZIndex = 2
+RemoteSpy.Font = Enum.Font.SourceSansLight
+RemoteSpy.Text = "Remotespy"
+RemoteSpy.TextColor3 = Color3.fromRGB(170, 255, 255)
+RemoteSpy.TextScaled = true
+RemoteSpy.TextSize = 14.000
+RemoteSpy.TextWrapped = true
+RemoteSpy.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/ZsVGx2Qc", true))()
+end)
+ 
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = RemoteSpy
+ 
+DarkDex.Name = "DarkDex"
+DarkDex.Parent = ScrollingFrame
+DarkDex.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+DarkDex.BackgroundTransparency = 0.100
+DarkDex.BorderSizePixel = 0
+DarkDex.Position = UDim2.new(1.13350415, -350, -0.00550079532, 150)
+DarkDex.Size = UDim2.new(0, 289, 0, 28)
+DarkDex.ZIndex = 2
+DarkDex.Font = Enum.Font.SourceSansLight
+DarkDex.Text = "Dark Dex V4"
+DarkDex.TextColor3 = Color3.fromRGB(170, 255, 255)
+DarkDex.TextScaled = true
+DarkDex.TextSize = 14.000
+DarkDex.TextWrapped = true
+DarkDex.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/zMrZEyJk", true))() 
+end)
+ 
+UICorner_2.CornerRadius = UDim.new(0, 4)
+UICorner_2.Parent = DarkDex
+ 
+InfiniteYield.Name = "InfiniteYield"
+InfiniteYield.Parent = ScrollingFrame
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+InfiniteYield.BackgroundTransparency = 0.100
+InfiniteYield.BorderSizePixel = 0
+InfiniteYield.Position = UDim2.new(1.13350415, -350, -0.0779645592, 150)
+InfiniteYield.Size = UDim2.new(0, 289, 0, 28)
+InfiniteYield.ZIndex = 2
+InfiniteYield.Font = Enum.Font.SourceSansLight
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(170, 255, 255)
+InfiniteYield.TextScaled = true
+InfiniteYield.TextSize = 14.000
+InfiniteYield.TextWrapped = true
+InfiniteYield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+ 
+UICorner_3.CornerRadius = UDim.new(0, 4)
+UICorner_3.Parent = InfiniteYield
+ 
+Bypasser.Name = "Bypasser"
+Bypasser.Parent = ScrollingFrame
+Bypasser.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+Bypasser.BackgroundTransparency = 0.100
+Bypasser.BorderSizePixel = 0
+Bypasser.Position = UDim2.new(1.13350415, -350, -0.144993544, 150)
+Bypasser.Size = UDim2.new(0, 289, 0, 28)
+Bypasser.ZIndex = 2
+Bypasser.Font = Enum.Font.SourceSansLight
+Bypasser.Text = "Bypasser"
+Bypasser.TextColor3 = Color3.fromRGB(170, 255, 255)
+Bypasser.TextScaled = true
+Bypasser.TextSize = 14.000
+Bypasser.TextWrapped = true
+Bypasser.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://the-shed.dev/scripts/sbp.lua", true))()
+end)
+ 
+UICorner_4.CornerRadius = UDim.new(0, 4)
+UICorner_4.Parent = Bypasser
+ 
+r6animations.Name = "r6animations"
+r6animations.Parent = ScrollingFrame
+r6animations.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+r6animations.BackgroundTransparency = 0.100
+r6animations.BorderSizePixel = 0
+r6animations.Position = UDim2.new(1.13350415, -350, -0.217457309, 150)
+r6animations.Size = UDim2.new(0, 289, 0, 28)
+r6animations.ZIndex = 2
+r6animations.Font = Enum.Font.SourceSansLight
+r6animations.Text = "AnimationGUI"
+r6animations.TextColor3 = Color3.fromRGB(170, 255, 255)
+r6animations.TextScaled = true
+r6animations.TextSize = 14.000
+r6animations.TextWrapped = true
+r6animations.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/uUR6pFVv", true))()
+end)
+ 
+UICorner_5.CornerRadius = UDim.new(0, 4)
+UICorner_5.Parent = r6animations
+ 
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = ScrollingFrame
+Aimbot.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+Aimbot.BackgroundTransparency = 0.100
+Aimbot.BorderSizePixel = 0
+Aimbot.Position = UDim2.new(1.13350415, -350, 0.141238332, 150)
+Aimbot.Size = UDim2.new(0, 289, 0, 28)
+Aimbot.ZIndex = 2
+Aimbot.Font = Enum.Font.SourceSansLight
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.fromRGB(170, 255, 255)
+Aimbot.TextScaled = true
+Aimbot.TextSize = 14.000
+Aimbot.TextWrapped = true
+Aimbot.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/cTKgXUcD", true))()
+end)
+ 
+UICorner_6.CornerRadius = UDim.new(0, 4)
+UICorner_6.Parent = Aimbot
+ 
+WallWalk.Name = "WallWalk"
+WallWalk.Parent = ScrollingFrame
+WallWalk.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+WallWalk.BackgroundTransparency = 0.100
+WallWalk.BorderSizePixel = 0
+WallWalk.Position = UDim2.new(1.13350415, -350, 0.213702098, 150)
+WallWalk.Size = UDim2.new(0, 289, 0, 28)
+WallWalk.ZIndex = 2
+WallWalk.Font = Enum.Font.SourceSansLight
+WallWalk.Text = "WalkWalk"
+WallWalk.TextColor3 = Color3.fromRGB(170, 255, 255)
+WallWalk.TextScaled = true
+WallWalk.TextSize = 14.000
+WallWalk.TextWrapped = true
+WallWalk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/sKq8SDe3", true))()
+end)
+ 
+UICorner_7.CornerRadius = UDim.new(0, 4)
+UICorner_7.Parent = WallWalk
+ 
+ChatSUDO.Name = "ChatSUDO"
+ChatSUDO.Parent = ScrollingFrame
+ChatSUDO.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+ChatSUDO.BackgroundTransparency = 0.100
+ChatSUDO.BorderSizePixel = 0
+ChatSUDO.Position = UDim2.new(1.13350415, -350, 0.286165863, 150)
+ChatSUDO.Size = UDim2.new(0, 289, 0, 28)
+ChatSUDO.ZIndex = 2
+ChatSUDO.Font = Enum.Font.SourceSansLight
+ChatSUDO.Text = "ChatSudo"
+ChatSUDO.TextColor3 = Color3.fromRGB(170, 255, 255)
+ChatSUDO.TextScaled = true
+ChatSUDO.TextSize = 14.000
+ChatSUDO.TextWrapped = true
+ChatSUDO.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+end)
+ 
+UICorner_8.CornerRadius = UDim.new(0, 4)
+UICorner_8.Parent = ChatSUDO
+ 
+VGhub.Name = "VGhub"
+VGhub.Parent = ScrollingFrame
+VGhub.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+VGhub.BackgroundTransparency = 0.100
+VGhub.BorderSizePixel = 0
+VGhub.Position = UDim2.new(1.13350415, -350, 0.358629644, 150)
+VGhub.Size = UDim2.new(0, 289, 0, 28)
+VGhub.ZIndex = 2
+VGhub.Font = Enum.Font.SourceSansLight
+VGhub.Text = "VG hub"
+VGhub.TextColor3 = Color3.fromRGB(170, 255, 255)
+VGhub.TextScaled = true
+VGhub.TextSize = 14.000
+VGhub.TextWrapped = true
+VGhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+ 
+UICorner_9.CornerRadius = UDim.new(0, 4)
+UICorner_9.Parent = VGhub
+ 
+MM2.Name = "MM2"
+MM2.Parent = ScrollingFrame
+MM2.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+MM2.BackgroundTransparency = 0.100
+MM2.BorderSizePixel = 0
+MM2.Position = UDim2.new(1.13350415, -350, 0.431093395, 150)
+MM2.Size = UDim2.new(0, 289, 0, 28)
+MM2.ZIndex = 2
+MM2.Font = Enum.Font.SourceSansLight
+MM2.Text = "MM2"
+MM2.TextColor3 = Color3.fromRGB(170, 255, 255)
+MM2.TextScaled = true
+MM2.TextSize = 14.000
+MM2.TextWrapped = true
+MM2.MouseButton1Down:connect(function()
+getgenv().mainKey = "nil"
+ 
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
+ 
+UICorner_10.CornerRadius = UDim.new(0, 4)
+UICorner_10.Parent = MM2
+ 
+PrisonLife.Name = "PrisonLife"
+PrisonLife.Parent = ScrollingFrame
+PrisonLife.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+PrisonLife.BackgroundTransparency = 0.100
+PrisonLife.BorderSizePixel = 0
+PrisonLife.Position = UDim2.new(1.13350415, -350, 0.507180393, 150)
+PrisonLife.Size = UDim2.new(0, 289, 0, 28)
+PrisonLife.ZIndex = 2
+PrisonLife.Font = Enum.Font.SourceSansLight
+PrisonLife.Text = "Prison Life"
+PrisonLife.TextColor3 = Color3.fromRGB(170, 255, 255)
+PrisonLife.TextScaled = true
+PrisonLife.TextSize = 14.000
+PrisonLife.TextWrapped = true
+PrisonLife.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
+ 
+UICorner_11.CornerRadius = UDim.new(0, 4)
+UICorner_11.Parent = PrisonLife
+ 
+PhantomForces.Name = "PhantomForces"
+PhantomForces.Parent = ScrollingFrame
+PhantomForces.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+PhantomForces.BackgroundTransparency = 0.100
+PhantomForces.BorderSizePixel = 0
+PhantomForces.Position = UDim2.new(1.13350415, -350, 0.57783258, 150)
+PhantomForces.Size = UDim2.new(0, 289, 0, 28)
+PhantomForces.ZIndex = 2
+PhantomForces.Font = Enum.Font.SourceSansLight
+PhantomForces.Text = "Phantom Forces"
+PhantomForces.TextColor3 = Color3.fromRGB(170, 255, 255)
+PhantomForces.TextScaled = true
+PhantomForces.TextSize = 14.000
+PhantomForces.TextWrapped = true
+PhantomForces.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+end)
+ 
+UICorner_12.CornerRadius = UDim.new(0, 4)
+UICorner_12.Parent = PhantomForces
+ 
+HamsterBall.Name = "HamsterBall"
+HamsterBall.Parent = ScrollingFrame
+HamsterBall.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+HamsterBall.BackgroundTransparency = 0.100
+HamsterBall.BorderSizePixel = 0
+HamsterBall.Position = UDim2.new(1.13350415, -350, 0.652107835, 150)
+HamsterBall.Size = UDim2.new(0, 289, 0, 28)
+HamsterBall.ZIndex = 2
+HamsterBall.Font = Enum.Font.SourceSansLight
+HamsterBall.Text = "Hamster Ball"
+HamsterBall.TextColor3 = Color3.fromRGB(170, 255, 255)
+HamsterBall.TextScaled = true
+HamsterBall.TextSize = 14.000
+HamsterBall.TextWrapped = true
+HamsterBall.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/7485xUhK", true))()
+end)
+ 
+UICorner_13.CornerRadius = UDim.new(0, 4)
+UICorner_13.Parent = HamsterBall
+ 
+Update.Name = "Update"
+Update.Parent = Borders
+Update.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Update.Position = UDim2.new(0.0331939571, 0, 0.27463764, 0)
+Update.Size = UDim2.new(0.274068326, 0, 0.0949415341, 0)
+Update.Font = Enum.Font.SourceSansSemibold
+Update.Text = ""
+Update.TextColor3 = Color3.fromRGB(170, 255, 255)
+Update.TextScaled = true
+Update.TextSize = 50.000
+Update.TextStrokeColor3 = Color3.fromRGB(84, 126, 126)
+Update.TextStrokeTransparency = 0.500
+Update.TextWrapped = true
+ 
+UICorner_14.CornerRadius = UDim.new(0, 2)
+UICorner_14.Parent = Update
+ 
+ExpName.Name = "ExpName"
+ExpName.Parent = Borders
+ExpName.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+ExpName.Position = UDim2.new(0.0331939571, 0, 0.0608695224, 0)
+ExpName.Size = UDim2.new(0.32730028, 0, 0.160158947, 0)
+ExpName.Font = Enum.Font.SourceSansSemibold
+ExpName.Text = "Mint V.1"
+ExpName.TextColor3 = Color3.fromRGB(170, 255, 255)
+ExpName.TextSize = 50.000
+ExpName.TextStrokeColor3 = Color3.fromRGB(84, 126, 126)
+ExpName.TextStrokeTransparency = 0.500
+ExpName.TextWrapped = true
+ 
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = ExpName
+ 
+Credit.Name = "Credit"
+Credit.Parent = Borders
+Credit.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Credit.BackgroundTransparency = 1.000
+Credit.Position = UDim2.new(0.0179848336, 0, 0.926811576, 0)
+Credit.Size = UDim2.new(0.266463846, 0, 0.0731884688, 0)
+Credit.Font = Enum.Font.SourceSansSemibold
+Credit.Text = "Frydex#8434"
+Credit.TextColor3 = Color3.fromRGB(189, 255, 251)
+Credit.TextScaled = true
+Credit.TextSize = 50.000
+Credit.TextStrokeColor3 = Color3.fromRGB(84, 126, 126)
+Credit.TextStrokeTransparency = 0.000
+Credit.TextTransparency = 0.300
+Credit.TextWrapped = true
+ 
+UICorner_16.CornerRadius = UDim.new(0, 2)
+UICorner_16.Parent = Credit
+ 
+-- Scripts:
+ 
+local function QHNDCS_fake_script() -- Frame.Dragify 
+	local script = Instance.new('LocalScript', Frame)
+ 
+	local UserInputService = game:GetService("UserInputService")
+ 
+	local gui = script.Parent
+ 
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+ 
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+ 
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+ 
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+ 
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+ 
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(QHNDCS_fake_script)()
+local function ZVEMH_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+ 
+	local frame = script.Parent --Change Frame to your Frame name!
+	local hotkey = Enum.KeyCode.RightShift -- Change Q to your own hotkey! 
+ 
+	local UIS = game:GetService("UserInputService")
+	local open = false
+ 
+ 
+ 
+	UIS.InputBegan:Connect(function(key, gp)
+	 if key.KeyCode == hotkey then
+	  if UIS:GetFocusedTextBox() == nil then
+	   if open == false then
+	    open = true 
+	    frame.Visible = open
+	   elseif open == true then
+	    open = false
+	    frame.Visible = open
+	   end
+	  end
+	 end
+	end)
+ 
+end
+coroutine.wrap(ZVEMH_fake_script)()
+ 
